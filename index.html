@@ -1,13 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Project1</title>
+<title>Raksha Bandhan Wishes</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Raksha Bandhan Wishes">
+<meta name="author" content="kkisku">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="Custom.js">
+</script>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<h1>Hi Everyone!!</h1>
-<p>Hope You are doing well.</p>
-  <p>I am trying to add more lines in this page</p>
-
+<div  ng-app="" style="width:100%; height:100%; position:relative;" id="Divmain">
+<div id="div1">
+ <form name="myForm">
+  <b>Enter your Name :- </b>
+<input type="text" name="name12" ng-model="name12" required>
+<span ng-show="myForm.name12.$error.required" style="color:#163a72"> <i>**Required.</i></span>
+ </form><br><br>
+ <button id="btn1" ng-disabled="myForm.name12.$invalid"><span>Click to see the message</span></button>
+</div>
+<br><br>
+ <p style="text-align:center; display:none;">Dear <span>{{name12}}</span> !!</p>
+ <div id="hid"style="display:none; text-align:center; color:#800080;">
+  <h1>HAPPY</h1>
+  <h1>RAKHSHA BANDHAN</h1>
+ </div>
+ <br>
+ <div style="height:50%">
+ <img style="display:none;" src="raksha-bandhan.jpg">
+ </div>
+</div>
 </body>
 </html>
