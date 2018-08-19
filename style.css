@@ -1,8 +1,9 @@
 #div1{
+	margin:auto;
+	width:50%;
 	margin-top:20%;
 	color:#B22222;
 	font-size:18px;
-	text-align:center;
 }
 body{
 		background-color:#d9cbf2;
