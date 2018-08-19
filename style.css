@@ -40,6 +40,7 @@ img {
   padding: 10px;
   transition: all 0.5s;
   cursor: pointer;
+  margin: 5px;
   box-shadow: 0 5px #990;
 }
 
