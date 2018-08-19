@@ -13,6 +13,12 @@ p {
 	font-size:24px;
 	color: #008000;
 }
+input.ng-invalid {
+    background-color:lightblue;
+}
+input.ng-valid {
+    background-color:lightgreen;
+}
 
 img {
     display: block;
