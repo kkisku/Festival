@@ -24,7 +24,7 @@ img {
 }
 #btn1{
   display: block;
-  border-radius: 4px;
+  border-radius: 6px;
   background-color: #f4511e;
   border: none;
   color: #FFFFFF;
@@ -33,10 +33,6 @@ img {
   padding: 10px;
   transition: all 0.5s;
   cursor: pointer;
-  margin: 5px;
-  margin-left: auto;
-  margin-right: auto;
-  width:35%;
 }
 
 #btn1 span {
