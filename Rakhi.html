@@ -14,11 +14,12 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div  ng-app="" style="width:100%; height:20%; position:relative;" id="Divmain">
+<div  ng-app="" style="width:100%; height:100%; position:relative;" id="Divmain">
 <div id="div1">
  <form name="myForm">
   <b>Enter your Name :- </b>
-<input type="text" name="name12" ng-model="name12" required><span ng-show="myForm.name12.$error.required"> **Required.</span>
+<input type="text" name="name12" ng-model="name12" required>
+<span ng-show="myForm.name12.$error.required" style="color:#163a72"> <i>**Required.</i></span>
  </form><br><br>
  <button id="btn1" ng-disabled="myForm.name12.$invalid"><span>Click to see the message</span></button>
 </div>
